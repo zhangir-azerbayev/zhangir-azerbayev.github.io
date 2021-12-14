@@ -5,15 +5,15 @@ title: Code Generation as Neurosymbolic Reasoning
 Scaling pre-trained language models to ever larger datasets and parameter counts has yielded an astonishing ability to generate plausible-sounding text. Consider this GPT-3 completion of a sentence from the front page of today's *Financial Times.* 
 
 > ***Prompt:* European gas futures surged 11 per cent on Monday after German foreign minister Annalena Baerbock said the Nord Stream 2 pipeline could not be permitted in its current form because it did not comply with EU law.**
-
- Russian President Vladimir Putin has been pushing for the pipeline since it was first proposed in 2015 by the Russian gas company Gazprom, which holds the majority stake in the project.
-
- The pipeline would add another 55 billion cubic metres of gas to Germany's existing import of 45 billion cubic metres of gas a year, which comes mainly from Russia. The pipeline would run in parallel to the existing Nord Stream 1 pipeline.
-
-But the US and some EU member states oppose the project, arguing that it would increase Europe's dependence on Russian gas and would pose a threat to Ukraine's gas transit business. A number of EU members, including the Netherlands, Sweden, Finland and Denmark, have objected to the project on the grounds of violating the EU's Third Energy Package - a set of rules aimed at separating energy industries from the providers.
-
-The pipeline is to stretch from the Russian port of Vyborg, near St Petersburg, to the coast of Germany. The German government is expected to make a decision on the project by the end of the year.
-> 
+>
+>Russian President Vladimir Putin has been pushing for the pipeline since it was first proposed in 2015 by the Russian gas company Gazprom, which holds the majority stake in the project.
+>
+>The pipeline would add another 55 billion cubic metres of gas to Germany's existing import of 45 billion cubic metres of gas a year, which comes mainly from Russia. The pipeline would run in parallel to the existing Nord Stream 1 pipeline.
+>
+>But the US and some EU member states oppose the project, arguing that it would increase Europe's dependence on Russian gas and would pose a threat to Ukraine's gas transit business. A number of EU members, including the Netherlands, Sweden, Finland and Denmark, have objected to the project on the grounds of violating the EU's Third Energy Package - a set of rules aimed at separating energy industries from the providers.
+>
+>The pipeline is to stretch from the Russian port of Vyborg, near St Petersburg, to the coast of Germany. The German government is expected to make a decision on the project by the end of the year.
+ 
 
 Without knowing in advance, I would certainly not be able to tell this wasn't written by a human. Every sentence is grammatical, idiomatic, on-topic, and the passage demonstrates impressive general knowledge. If there are factual errors, none jump out at me. 
 
