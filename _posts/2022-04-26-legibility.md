@@ -1,5 +1,9 @@
+---
+layout: post
+title: A Dialogue on AGI
+---
 
-Perched on the shoulders of every AI researcher are two creatures, one an angel and the other a devil, but it is yet to be discerned which is which. On one shoulder is Gottfried, who believes that deep learning will only take us so far, and that achieving AGI will require a deep conceptual breakthrough concerning the nature of intelligence. On the other shoulder is Edmund, who believes that while there are still technical breakthroughs to be had around the margins, scaling large neural networks trained with gradient-based learning is the surest path to AGI. The disagreement between Gottfried and Edmund hinges on a claim I will call the legibility hypothesis, with the former affirming it and the latter denying it: 
+Perched on the shoulders of every AI researcher are two creatures, one an angel and the other a devil, but it is yet to be discerned which is which. On one shoulder is Gottfried, who believes that deep learning will only take us so far, and that achieving artificial general intelligence (AGI) will require a deep conceptual breakthrough concerning the nature of intelligence. On the other shoulder is Edmund, who believes that while there are still technical breakthroughs to be had around the margins, scaling large neural networks trained with gradient-based learning is the surest path to AGI. The disagreement between Gottfried and Edmund hinges on a claim I will call the legibility hypothesis, with the former affirming it and the latter denying it: 
 
 **The Legibility Hypothesis:** The algorithm for general intelligence contained within the human genome is legible enough for a human to deduce and reverse-engineer. 
 
