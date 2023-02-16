@@ -1,18 +1,35 @@
----
-layout: default
----
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"
+"http://www.w3.org/TR/html4/frameset.dtd">
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<html>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+<head>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+  <title>Jeremy Avigad's Home Page</title>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+  <meta http-equiv="Content-Type" content="text/html"
+  charset=iso-8859-1>
+
+  <meta name="description" content="Jeremy Avigad's home page">
+
+  <meta name="keywords" content="mathematical logic, proof theory,
+    philosophy of mathematics, history of mathematics, foundations of
+    mathematics">
+
+  <link rel='stylesheet' type='text/css' href='home.css'>
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+ 
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+</head>
+
+<frameset frameborder=no framespacing=0 border = 0 cols="130pt,*">
+
+<frame src="menu.html" name="menubar" marginwidth=10>
+<frame src="welcome.html" name="main" marginwidth=20>
+
+</frameset>
+
+</html>
