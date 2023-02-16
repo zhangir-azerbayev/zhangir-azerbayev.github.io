@@ -1,0 +1,68 @@
+<html>
+<head>
+  <link rel='stylesheet' type='text/css' href='../home.css'>
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<h1 id="reflections-on-timothy-gowers-manifesto">Reflections on Timothy Gowers&#39; Manifesto</h1>
+<p><em>2022-04-28</em></p>
+<p>This morning, the distinguished mathematician Timothy Gowers announced he was building an automated theorem proving team and
+released a <a href="https://drive.google.com/file/d/1-FFa6nMVg18m1zPtoAQrFalwpx2YaGK4/view">54 page manifesto</a>. I was thrilled 
+by this news: Gowers is one of my mathematical heroes. His contributions include the insight that combinatorial
+methods can be used to study functional analysis, which greatly advanced our understanding of the geometry of Banach spaces by resolving the Banach-hyperplane problem among many other results. He also applied analytic methods to combinatorial problems, 
+most famously in his alternate proof of Szemeredi&#39;s theorem. Aside from my personal love of Gowers&#39; work, I am always
+happy to see mainstream pen-and-paper mathematicians embrace computer-assisted theorem proving. It is primarily 
+mainstream mathematicians who convince other mainstream mathematicians to learn about computer theorem-proving. </p>
+<p>Let me briefly summarize Gowers&#39; program. He begins with the observation that the general problem of supplying a proof
+given a well-formed mathematical proposition is undecidable. So how is it that humans prove theorems? The key is that 
+humans are not interested in proving arbitrary theorems plucked from &#120121;, the entire space of statement-proof pairs. 
+Instead mathematicians are interested in a subspace of &#120121;, which we&#39;ll call &#120132;, whose elements are interesting mathematical statements paired with a satisfying proof. A statement may be interesting because it has a property like 
+&quot;is beautiful&quot;, &quot;is a natural question about elementary objects&quot;, or &quot;is party of a research program&quot; and a proof is satisfying
+to the extent that it provides genuine understanding, rather than just being a formal deriviation. Gowers is 
+interested in accomplishing three goals: </p>
+<ol>
+<li>Figure out what distinguishes &#120132; from &#120121;.  </li>
+<li>Figure out why it is feasible for humans to find a proof P of statement S when (S,P) belongs to &#120132;. </li>
+<li>Use the insights gained from answering (1) and (2) to build a GOFAI human-level automated theorem prover (ATP) that produces satisfying proofs. </li>
+</ol>
+<p>My expectation is that efforts into (1) and (2) will be tremendousfly fruitful---these are the most profound questions
+about the relationship between mathematics and mathematicians, and as far as I know they are barely studied. However, 
+I doubt that the answers to (1) and (2) will translate into progress on (3), and furthermore, I believe any attempt to build 
+a GOFAI human-level ATP has an exceedingly low probability of success. </p>
+<p>The long history of AI research has shown that building systems by enumerating the rules they are supposed to follow does
+not scale to near human-level performance on intelligent tasks. After testing such a system, the researcher realizes
+there is an edge case they forgot to account for, and go back to to add a rule for this edge 
+case. But iterating this process of trial-and-error does not converge: the problem is like a Hydra, where for every 
+new rule you add you also discover a panoply of new edge cases the new rules don&#39;t cover. This pattern has unfolded in 
+vision, board games, language, speech processing, information retrieval, and just about every other field of AI. </p>
+<p>Instead of trying to figure out the algorithm for an intelligent task, what has instead succeeded is writing a 
+<em>meta-algorithm</em> that searches program-space in order to learn an algorithm for the intelligent task, i.e machine learning. Why does 
+GOFAI typically fail and learning often succeed? I suspect because of something like the following: call an algorithm
+<em>illegible</em> if it is so unintelligble and fiendishly complicated that it would be next to impossible for a human, with
+their limited mental powers, to discover and implement. The only hope for solving tasks that require illegible algorithms
+is machine learning. </p>
+<p>The history of AI suggests that vision, speech and language processing, and board-game playing demand illegible
+algorithms. We can reformulate our question of whether a GOFAI program inspired by studying human mathematical reasoning
+can be a human-level ATP as follows: is the human theorem-proving algorithm (henceforth HTPA) unintelligble? I think there are strong grounds to believe it is. First, it certainly seems that playing Go at a human level requires
+an illegible algorithm, and I&#39;d expect that the game tree of Go is a far less complex object than the collection
+of proof-search trees of statement in &#120132;.</p>
+<p>Note that I do not rule out the possibility that the collection of proof-search trees corresponding to proofs in &#120132; is actually a far simpler
+object than the Go game-tree. Perhaps Gowers may discover that the structure
+of mathematical proof-space is much simpler than we thought, in fact so simple we don&#39;t need learning to navigate
+it with human-level performance. But I think the probability of this being the case is low. </p>
+<p>Moreover, if the HTPA were legible, I suspect we would&#39;ve already discovered much about it during the countless 
+hours we spend teaching mathematics. After all, directly teaching the HTPA would be the optimal way of 
+teaching mathematics. Consider books such as Polya&#39;s <em>How To Solve It</em> or Velleman&#39;s <em>How to Prove It</em>. In the world
+of a legible HTPA, these books could have initiated a research program that made steady progress in describing
+how the best mathematicians discover proofs in ever greater detail. But it seems we live in a world where we can&#39;t
+say much more about how to do mathematics than is in <em>How To Prove It</em>, and the only way to learn to prove theorems
+is to solve a lot of exercises.  </p>
+<p>I see the relation between Gowers&#39; program and automated theorem proving as similar to the relationship between 
+linguistics and NLP. Linguistics comprises our fundamental knowledge of what language <em>is</em> in terms of things like
+universal grammar, syntax trees, and theories of semantics, in much the same way &#120132; encapsulates what mathematics
+<em>is</em>. However, all attempts to leverage linguistic knowledge for building language processing machines have failed. 
+Instead, to build NLP systems we use learning algorithms that search program-space to find a functional 
+equivalent of the human language processing algorithm. Similarly, I expect we will be unable to leverage
+our understanding of &#120132; to build a human-level ATP. At the same time, living in a world where we have GPT-3 but no 
+theory of semantics would be unsatisfying, in the same way that having a human-level ATP but no understanding of the structure of &#120132; would be unsatisfying. </p>
+</body>
