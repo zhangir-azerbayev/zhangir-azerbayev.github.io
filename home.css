@@ -39,12 +39,7 @@ p {
     background-image: url(pixel.png);
     background-repeat: repeat;
 }
-
-mybold {
-	color: 	#7d2e04;
-    font-weight: normal;
-}
-
+
 a {
     color: #1F3388;
 	text-decoration: none;
