@@ -16,14 +16,16 @@
   <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
 </head>
 <body>
-  <aside class="sidebar">
-    <a href="{{ '/' | relative_url }}" class="masthead">Zhangir<br>Azerbayev</a>
-    <nav class="site-nav" aria-label="Primary">
-      {%- include nav.html -%}
-    </nav>
-  </aside>
-  <main>
-    {{ content }}
-  </main>
+  <div class="page">
+    <aside class="sidebar">
+      <a href="{{ '/' | relative_url }}" class="masthead">Zhangir<br>Azerbayev</a>
+      <nav class="site-nav" aria-label="Primary">
+        {%- include nav.html -%}
+      </nav>
+    </aside>
+    <main>
+      {{ content }}
+    </main>
+  </div>
 </body>
 </html>

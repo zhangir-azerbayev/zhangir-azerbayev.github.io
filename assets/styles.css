@@ -24,7 +24,9 @@ body {
   font-feature-settings: "kern", "liga", "onum"; /* old-style numerals */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
 
+.page {
   display: grid;
   grid-template-columns: 200px minmax(0, 660px);
   gap: 48px;
@@ -232,7 +234,7 @@ ul.reading em {
 
 /* ---------- Responsive ---------- */
 @media (max-width: 760px) {
-  body {
+  .page {
     grid-template-columns: 1fr;
     gap: 24px;
     padding: 24px 20px;
