@@ -1,0 +1,17 @@
+title: Zhangir Azerbayev
+description: Deep learning researcher
+author: Zhangir Azerbayev
+url: https://zhangir-azerbayev.github.io
+
+permalink: /:title.html
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - advice.txt
+  - education.html
+  - menu.html
+  - home.css
+  - bullet.gif
+  - pixel.png

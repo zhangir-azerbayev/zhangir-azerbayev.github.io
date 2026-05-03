@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<article class="post">
+  <p class="kicker">Essay</p>
+  <h1 class="page-title">{{ page.title }}</h1>
+  {% if page.standfirst %}<p class="standfirst">{{ page.standfirst }}</p>{% endif %}
+  <p class="dateline">{{ page.date | date: "%B %-d, %Y" }}</p>
+  <div class="prose">
+    {{ content }}
+  </div>
+  <p class="post-footer"><a href="{{ '/essays.html' | relative_url }}">← All essays</a></p>
+</article>

@@ -1,61 +1,57 @@
-<html>
+---
+layout: default
+title: Software
+description: Software projects by Zhangir Azerbayev.
+---
 
-<head>
-  <link rel='stylesheet' type='text/css' href='home.css'>
-  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
-</head>
+<h1 class="page-title">Software</h1>
 
-<body>
-<div id="mymenu">
-<p><a href="index.html">Welcome</a></p>
-<p><a href="papers.html">Papers</a></p>
-<p><a href="talks.html">Talks</a></p>
-<p><a href="software.html">Software</a></p>
-<p><a href="blog.html">Essays</a></p>
-</div>
-
-<div id="main">
-    <h1>Software</h1>
-    <ul>
-        <li>
-            <b>Llemma models</b><br>
-            Open language models for mathematics.<br>
-            <a href="https://huggingface.co/EleutherAI/llemma_7b" target="_blank">7B model.</a>
-            <a href="https://huggingface.co/EleutherAI/llemma_34b" target="_blank">34B model.</a>
-            <a href="https://huggingface.co/EleutherAI/proof-pile-2" target="_blank">Training data.</a>
-            <a href="https://github.com/EleutherAI/math-lm" target="_blank">Code.</a>
-
-        </li>
-        <li><strong>proofGPT models</strong><br>
-            Language models fine-tuned on the proof-pile. <br>
-            <a href="https://huggingface.co/hoskinson-center/proofGPT-v0.1" target="_blank">1.3B model.</a>
-            <a href="https://huggingface.co/hoskinson-center/proofGPT-v0.1-6.7B" target="_blank">6.7B model.</a>
-        </li>
-        <li><strong>proof-pile</strong><br>
-            8 billion tokens of mathematical text. <br>
-            <a href="https://huggingface.co/datasets/hoskinson-center/proof-pile">Dataset.</a>
-        </li>
-        <li><strong>Mathlib Semantic Search</strong><br>
-            A semantic search engine for <a href="https://leanprover-community.github.io/" target="_blank">Lean mathlib</a>
-            based on the OpenAI API and Faiss. <br>
-            with Ed Ayers <br>
-            <a href="http://mathlib-search.edayers.com/" target="_blank">Demo.</a> 
-            <a href="https://github.com/zhangir-azerbayev/mathlib-semantic-search" target="_blank">Code.</a>
-        </li>
-        <li><strong>Lean Chat</strong><br>
-            An in-IDE chatbot that helps users formalize theorems in Lean. <br>
-            with Ed Ayers <br>
-            <a href="https://marketplace.visualstudio.com/items?itemName=hoskinson-ml.lean-chat-vscode" target="_blank">VS Code marketplace.</a>
-            <a href="https://xenaproject.wordpress.com/2022/08/16/the-future-of-interactive-theorem-proving/" target="_blank">Blog post.</a>
-            <a href="https://github.com/zhangir-azerbayev/lean-chat-vscode" target="_blank">Client code.</a>
-            <a href="https://github.com/EdAyers/lean-chat-server" target="_blank">Server code.</a>
-            <a href="https://news.ycombinator.com/item?id=32489099" target="_blank">Hacker News.</a>
-        </li>
-        <li><strong>particle_filtering</strong><br>
-            A mathematical exposition and NumPy implementation of particle filtering via SIS and the bootstrap filter. <br>
-            <a href="https://github.com/zhangir-azerbayev/particle_filtering" target="_blank">Repo.</a>
-        </li>
-    </ul>
-
-</div>
-</body>
+<ul class="entries">
+  <li>
+    <p class="entry-title">Llemma models</p>
+    <p>Open language models for mathematics.</p>
+    <p class="entry-links">
+      <a href="https://huggingface.co/EleutherAI/llemma_7b">7B model</a>
+      <a href="https://huggingface.co/EleutherAI/llemma_34b">34B model</a>
+      <a href="https://huggingface.co/EleutherAI/proof-pile-2">Training data</a>
+      <a href="https://github.com/EleutherAI/math-lm">Code</a>
+    </p>
+  </li>
+  <li>
+    <p class="entry-title">proofGPT models</p>
+    <p>Language models fine-tuned on the proof-pile.</p>
+    <p class="entry-links">
+      <a href="https://huggingface.co/hoskinson-center/proofGPT-v0.1">1.3B model</a>
+      <a href="https://huggingface.co/hoskinson-center/proofGPT-v0.1-6.7B">6.7B model</a>
+    </p>
+  </li>
+  <li>
+    <p class="entry-title">proof-pile</p>
+    <p>Eight billion tokens of mathematical text.</p>
+    <p class="entry-links"><a href="https://huggingface.co/datasets/hoskinson-center/proof-pile">Dataset</a></p>
+  </li>
+  <li>
+    <p class="entry-title">Mathlib Semantic Search</p>
+    <p>A semantic search engine for <a href="https://leanprover-community.github.io/">Lean mathlib</a>, based on the OpenAI API and Faiss. With Ed Ayers.</p>
+    <p class="entry-links">
+      <a href="http://mathlib-search.edayers.com/">Demo</a>
+      <a href="https://github.com/zhangir-azerbayev/mathlib-semantic-search">Code</a>
+    </p>
+  </li>
+  <li>
+    <p class="entry-title">Lean Chat</p>
+    <p>An in-IDE chatbot that helps users formalize theorems in Lean. With Ed Ayers.</p>
+    <p class="entry-links">
+      <a href="https://marketplace.visualstudio.com/items?itemName=hoskinson-ml.lean-chat-vscode">VS Code</a>
+      <a href="https://xenaproject.wordpress.com/2022/08/16/the-future-of-interactive-theorem-proving/">Blog post</a>
+      <a href="https://github.com/zhangir-azerbayev/lean-chat-vscode">Client code</a>
+      <a href="https://github.com/EdAyers/lean-chat-server">Server code</a>
+      <a href="https://news.ycombinator.com/item?id=32489099">Hacker News</a>
+    </p>
+  </li>
+  <li>
+    <p class="entry-title">particle_filtering</p>
+    <p>A mathematical exposition and NumPy implementation of particle filtering via SIS and the bootstrap filter.</p>
+    <p class="entry-links"><a href="https://github.com/zhangir-azerbayev/particle_filtering">Repo</a></p>
+  </li>
+</ul>

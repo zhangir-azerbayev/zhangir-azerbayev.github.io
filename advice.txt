@@ -1,0 +1,14 @@
+# How to get started in deep learning
+There is some deep sense in which reading *Crime and Punishment* or *Reasons and Persons* is the most important preparation for a career in deep learning. However, for the purposes of this post, I will assume you already have a good liberal arts education and just want to unblock yourself.
+
+# Mathematical prequisites:
+A grounding in probability, statistics, and information theory is essential. As a coarse heuristic, you can evaluate the usefulness of a probability and statistics book by adding one point for every time the phrases "entropy" or "KL divergence" appear and subtracting one point for every time "hypothesis test", "sampling distribution", or "statistical learning theory" appear. I personally recommend chs. 1-9 of MacKay's *Information Theory, Inference, and Learning Algorithms". If you are more philosophically inclined, Jaynes' "Probability Theory" is part of the scenic route.
+ 
+After a solid foundation in probability, you should understand the three main categories of learning algorithms: *supervised learning*, *unsupervised learning*, and *reinforcement learning*.
+- For *supervised learning*, it is so simple I can explain it right now.
+- For *unsupervised learning*, you should grab some chapters from Bishop's *Pattern Recognition and Machine Learning*. Maybe 1, 2, 3, 8, 9, 10, and 11. Here, you will mostly be studying models like graphical models and Gaussian mixture models. You should think of these as toy examples that help you prepare for the real deal, which is deep learning.
+- For *reinforcement learning*, the classic *Reinforcement Learning* by Sutton & Barto is singular.
+
+# Practical things
+
+# Computer systems

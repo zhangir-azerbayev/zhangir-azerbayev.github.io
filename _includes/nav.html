@@ -1,0 +1,6 @@
+{%- assign url = page.url -%}
+<a href="{{ '/' | relative_url }}"{% if url == '/' or url == '/index.html' %} aria-current="page"{% endif %}>Welcome</a>
+<a href="{{ '/papers.html' | relative_url }}"{% if url contains 'papers' %} aria-current="page"{% endif %}>Papers</a>
+<a href="{{ '/talks.html' | relative_url }}"{% if url contains 'talks' %} aria-current="page"{% endif %}>Talks</a>
+<a href="{{ '/software.html' | relative_url }}"{% if url contains 'software' %} aria-current="page"{% endif %}>Software</a>
+<a href="{{ '/essays.html' | relative_url }}"{% if url contains 'essays' or url contains 'posts' %} aria-current="page"{% endif %}>Essays</a>
